@@ -2306,7 +2306,7 @@
 		"AttackCapabilities"			"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"				"27"
 		"AttackDamageMax"				"35"
-		"AttackRate"					"1.550000"
+		"AttackRate"					"1.40000"
 		"AttackAnimationPoint"			"0.330000"
 		"AttackAcquisitionRange"		"600"
 		"AttackRange"					"150"
@@ -2320,7 +2320,7 @@
 		"AttributeAgilityGain"			"3.500000"
 		"StatusHealthRegen"				"2.000000"
 		"MovementSpeed"					"305"
-		"MovementTurnRate"				"0.600000"
+		"MovementTurnRate"				"1.0000"
 		"HasAggressiveStance"			"1"
 		"BoundsHullName"				"DOTA_HULL_SIZE_HERO"
 		"HealthBarOffset"				"170"
@@ -2358,18 +2358,18 @@
 		"AttackDamageMin"				"26"
 		"AttackDamageMax"				"38"
 		"AttackRate"					"1.550000"
-		"AttackAnimationPoint"			"0.330000"
+		"AttackAnimationPoint"			"0.20000"
 		"AttackAcquisitionRange"		"600"
 		"AttackRange"					"150"
 		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
-		"AttributeBaseStrength"			"21"
+		"AttributeBaseStrength"			"30"
 		"AttributeStrengthGain"			"1.800000"
-		"AttributeBaseAgility"			"24"
+		"AttributeBaseAgility"			"32"
 		"AttributeAgilityGain"			"3.20000"
 		"AttributeBaseIntelligence"		"20"
 		"AttributeIntelligenceGain"		"2.200000"
 		"MovementSpeed"					"305"
-		"MovementTurnRate"				"0.500000"
+		"MovementTurnRate"				"1.0000"
 		"HealthBarOffset"				"200"
 	}
 	"npc_dota_hero_skeleton_king" //имя юнита
@@ -3714,19 +3714,19 @@
           "AttackCapabilities"	"DOTA_UNIT_CAP_MELEE_ATTACK"
           "AttackDamageMin"		"34"
           "AttackDamageMax"		"42"
-          "AttackRate"		     "1.600000"
-          "AttackAnimationPoint"		"0.350000"
+          "AttackRate"		     "1.40000"
+          "AttackAnimationPoint"		"0.30000"
           "AttackAcquisitionRange"		"600"
           "AttackRange"		     "128"
           "AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
-          "AttributeBaseStrength"		"19"
+          "AttributeBaseStrength"		"30
           "AttributeStrengthGain"		"2.000000"
-          "AttributeBaseAgility"		"26"
-          "AttributeAgilityGain"		"3.200000"
+          "AttributeBaseAgility"		"37
+          "AttributeAgilityGain"		"4.8000"
           "AttributeBaseIntelligence"		"25"
           "AttributeIntelligenceGain"		"1.800000"
-          "MovementSpeed"		"320"
-          "MovementTurnRate"		"0.600000"
+          "MovementSpeed"		"350
+          "MovementTurnRate"		"2.000"
           "HealthBarOffset"		"200"
 	}
 	"npc_dota_hero_sniper"
@@ -3758,21 +3758,21 @@
 		"AttackCapabilities"		"DOTA_UNIT_CAP_RANGED_ATTACK"
 		"AttackDamageMin"		"25"
 		"AttackDamageMax"		"31"
-		"AttackRate"		"1.600000"
+		"AttackRate"		"1.50000"
 		"AttackAnimationPoint"		"0.170000"
 		"AttackAcquisitionRange"		"950"
 		"AttackRange"		"550"
 		"ProjectileModel"		"particles/units/heroes/hero_sniper/sniper_base_attack.vpcf"
 		"ProjectileSpeed"		"3000"
 		"AttributePrimary"		"DOTA_ATTRIBUTE_AGILITY"
-		"AttributeBaseStrength"		"22"
-		"AttributeStrengthGain"		"1.900000"
+		"AttributeBaseStrength"		"32"
+		"AttributeStrengthGain"		"2.3000"
 		"AttributeBaseIntelligence"		"19"
 		"AttributeIntelligenceGain"		"1.800000"
 		"AttributeBaseAgility"		"25"
-		"AttributeAgilityGain"		"2.800000"
-		"MovementSpeed"		"300"
-		"MovementTurnRate"		"0.600000"
+		"AttributeAgilityGain"		"3.4000"
+		"MovementSpeed"		"320"
+		"MovementTurnRate"		"1.0000"
 		"HasAggressiveStance"		"1"
 		"VisionNighttimeRange"		"1000"
 		"BoundsHullName"		"DOTA_HULL_SIZE_HERO"
@@ -3945,7 +3945,7 @@
 		"Ability15"				"special_bonus_spell_amplify_3"
 		"Ability16"				"special_bonus_strength_25"
 		"Ability17"				"special_bonus_unique_sargeras_1"//Стакающаяся пассивка
-		"ArmorPhysical"			 "0"
+		"ArmorPhysical"			 "6
 	 	"ProjectileSpeed"			"900"
 		"AttributePrimary"			"DOTA_ATTRIBUTE_STRENGTH"
 		"AttributeBaseStrength"		"20"
@@ -3954,7 +3954,7 @@
 		"AttributeAgilityGain"		"2.000000"
 		"AttributeBaseIntelligence"	"15"
 		"AttributeIntelligenceGain"	"1.800000"
-		"MovementSpeed"			"275"
+		"MovementSpeed"			"310
 	}
 	"npc_dota_hero_slardar"
 	{
@@ -6076,26 +6076,26 @@
 
 		// Attribute Stats
 		"AttributePrimary"          "DOTA_ATTRIBUTE_STRENGTH"
-		"AttributeBaseStrength"     "28"
-		"AttributeStrengthGain"     "3.000000"
-		"AttributeBaseIntelligence" "21"
+		"AttributeBaseStrength"     "37
+		"AttributeStrengthGain"     "4.200"
+		"AttributeBaseIntelligence" "42"
 		"AttributeIntelligenceGain" "1.900000"
-		"AttributeBaseAgility"      "22"
-		"AttributeAgilityGain"      "2.400000"
+		"AttributeBaseAgility"      "37
+		"AttributeAgilityGain"      "3.400000"
 
 		// Misc stats
-		"ArmorPhysical"             "3"
+		"ArmorPhysical"             "6
 		"MagicalResistance"			"25"
 		"AttackCapabilities"        "DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"           "22"
 		"AttackDamageMax"           "34"
-		"AttackRate"                "1.700000"
-		"AttackAnimationPoint"      "0.400000"
+		"AttackRate"                "1.40000"
+		"AttackAnimationPoint"      "0.30000"
 		"AttackAcquisitionRange"    "600"
-		"AttackRange"               "128"
+		"AttackRange"               "163
 		"ProjectileSpeed"           "0"
-		"MovementSpeed"             "315"
-		"MovementTurnRate"          "0.600000"
+		"MovementSpeed"             "335
+		"MovementTurnRate"          "2.0000"
 
 		// Abilities
 		"Ability1"					"superman_recoil"
@@ -7299,24 +7299,24 @@
 
 		"ArmorPhysical"				"0"
 		"AttackCapabilities"			"DOTA_UNIT_CAP_MELEE_ATTACK"
-		"AttackDamageMin"				"12"
-		"AttackDamageMax"				"16"
-		"AttackRate"					"1.600000"
-		"AttackAnimationPoint"			"1"
+		"AttackDamageMin"				"24
+		"AttackDamageMax"				"32
+		"AttackRate"					"1.40000"
+		"AttackAnimationPoint"			"0.3
 
 		"AttackAcquisitionRange"			"600"
 		"AttackRange"					"150"
 		"ProjectileSpeed"				"0"
 		"AttributePrimary"				"DOTA_ATTRIBUTE_AGILITY"
-		"AttributeBaseStrength"			"21"
-		"AttributeStrengthGain"			"2.2000"
-		"AttributeBaseIntelligence"		"14"
-		"AttributeIntelligenceGain"		"1.400000"
-		"AttributeBaseAgility"			"30"
-		"AttributeAgilityGain"			"2.800000"
+		"AttributeBaseStrength"			"30
+		"AttributeStrengthGain"			"2.800"
+		"AttributeBaseIntelligence"		"28
+		"AttributeIntelligenceGain"		"1.8000"
+		"AttributeBaseAgility"			"37
+		"AttributeAgilityGain"			"3.6000"
 		"StatusHealthRegen"				"0.5"
-		"MovementSpeed"				"300"
-		"MovementTurnRate"				"0.600000"
+		"MovementSpeed"				"320
+		"MovementTurnRate"				"1.0000"
 
 		"BoundsHullName"		"DOTA_HULL_SIZE_HERO"
 
@@ -7541,7 +7541,7 @@
 		"Ability16"					"special_bonus_unique_shazam_3"
 		"Ability17"					"special_bonus_all_stats_20"
 
-		"ArmorPhysical"				"-1"
+		"ArmorPhysical"				"4"
 		"AttackCapabilities"			"DOTA_UNIT_CAP_RANGED_ATTACK"
 		"AttackDamageMin"				"26"
 		"AttackDamageMax"				"35"
@@ -7552,14 +7552,14 @@
 		"ProjectileModel"				"particles/econ/events/snowball/snowball_projectile.vpcf"
 		"ProjectileSpeed"				"900"
 		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
-		"AttributeBaseStrength"			"20"
+		"AttributeBaseStrength"			"30
 		"AttributeStrengthGain"			"3.10000"
-		"AttributeBaseIntelligence"		"10"
+		"AttributeBaseIntelligence"		"37
 		"AttributeIntelligenceGain"		"2.10000"
-		"AttributeBaseAgility"			"12"
+		"AttributeBaseAgility"			"24
 		"AttributeAgilityGain"			"2.40000"
-		"MovementSpeed"				"295"
-		"MovementTurnRate"				"0.500000"
+		"MovementSpeed"				"310
+		"MovementTurnRate"				"1.000
 		"BoundsHullName"				"DOTA_HULL_SIZE_HERO"
 
 		"VoiceFile"					"soundevents/voscripts/game_sounds_vo_lich.vsndevts"
@@ -7693,23 +7693,23 @@
 		"Ability17"				"special_bonus_all_stats_20"
 
 		"AbilityDraftIgnoreCount"		"7"
-		"ArmorPhysical"				"0"
+		"ArmorPhysical"				"4
 		"AttackCapabilities"			"DOTA_UNIT_CAP_MELEE_ATTACK"
 		"AttackDamageMin"				"44"
 		"AttackDamageMax"				"50"
-		"AttackRate"					"1.650000"
+		"AttackRate"					"1.60000"
 		"AttackAnimationPoint"			"0.40000"
 		"AttackAcquisitionRange"			"600"
 		"AttackRange"					"150"
 		"AttributePrimary"				"DOTA_ATTRIBUTE_STRENGTH"
 		"AttributeBaseStrength"			"30"
 		"AttributeStrengthGain"			"3.600000"
-		"AttributeBaseIntelligence"		"17"
+		"AttributeBaseIntelligence"		"30
 		"AttributeIntelligenceGain"		"2.200000"
-		"AttributeBaseAgility"			"7"
-		"AttributeAgilityGain"			"1.70000"
-		"MovementSpeed"				"290"
-		"MovementTurnRate"				"0.500000"
+		"AttributeBaseAgility"			"28
+		"AttributeAgilityGain"			"2.3000"
+		"MovementSpeed"				"310
+		"MovementTurnRate"				"1.000"
 		"BoundsHullName"				"DOTA_HULL_SIZE_HERO"
 
 		"particle_folder"				"particles/units/heroes/hero_tiny"
