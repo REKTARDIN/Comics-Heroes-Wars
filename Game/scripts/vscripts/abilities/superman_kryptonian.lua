@@ -100,8 +100,8 @@ end
 
 function modifier_superman_kryptonian:OnIntervalThink()
     if IsServer() then
-        if GameRules:IsDaytime() then self.nGameTime = EF_DAYTIME else self.nGameTime = EF_NIGHTTIME end 
-        if self.nGameTime == EF_NIGHTTIME and not self:GetCaster():HasTalent("special_bonus_unique_superman_6") then self:SetStackCount(1) self:GetAbility():SetActivated(false) return else self:GetAbility():SetActivated(true) end  
+     if GameRules:IsDaytime() then if self.nGameTime == EF_DAYTIME then else self.nGameTime = EF_DAYTIME self:StartIntervalThink(1) end else if self.nGameTime == EF_NIGHTTIME then else self.nGameTime = EF_NIGHTTIME self:StartIntervalThink(2) end end
+         if self.nGameTime == EF_NIGHTTIME and not self:GetCaster():HasTalent("special_bonus_unique_superman_6") then if self:GetStackCount() > 1 then self:DecrementStackCount() end self:GetAbility():SetActivated(true) return else self:GetAbility():SetActivated(true) end 
 
 		if self:GetStackCount() < self.nMaxStacks then      
             self:IncrementStackCount()
